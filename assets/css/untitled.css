@@ -1,0 +1,63 @@
+.portfolio-block.cv .group .elepad {
+  margin: 0 25px;
+  padding: 10px 20px;
+}
+
+#ding {
+  padding: 1rem 2rem 0 1rem;
+  margin-bottom: 0px;
+}
+.page-footer.page-footer a:hover {
+  color: blue;
+}
+.brand-area {
+  padding: 2rem 20rem;
+  margin-bottom: 5rem;
+}
+
+.first-row .col-lg-3 > .single-brand {
+  border: 1px solid none;
+  text-align: center;
+  padding: 1.8rem 1rem;
+  margin: 0.9rem 0;
+  width: 250px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.first-row .col-lg-3 > .single-brand > img {
+  width: 50%;
+}
+
+.first-row .col-lg-3 > .single-brand:hover {
+  box-shadow: blueviolet;
+  transform: scale(1.1);
+}
+.first-row .col-lg-3 > .single-brand:hover > img {
+  filter: brightness(2);
+}
+.services {
+  padding: 7rem 2rem;
+}
+
+.services.services-title {
+  padding: 0 14rem;
+}
+
+.services .services-title h1 {
+  font-size: 35px;
+}
+.services .services {
+  background: none;
+  padding: 5rem 0;
+  width: 12rem;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+
+.services.services-title :hover {
+  box-shadow: red;
+}
+.page-footer.page-footer {
+}
