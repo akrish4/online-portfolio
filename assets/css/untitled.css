@@ -49,15 +49,19 @@
   font-size: 35px;
 }
 .services .services {
-  background: none;
+  background: aqua;
   padding: 5rem 0;
   width: 12rem;
-  margin: 5rem 0.5rem;
+  margin: 5rem 1rem;
   transition: box-shadow 0.7s ease;
 }
-
+.services .services :hover {
+  color: blue;
+}
+.services .services > img:hover {
+  box-shadow: crimson;
+  color: chartreuse;
+}
 .services.services-title :hover {
   box-shadow: red;
-}
-.page-footer.page-footer {
 }
