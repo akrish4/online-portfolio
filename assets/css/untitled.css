@@ -3,8 +3,9 @@
   padding: 10px 20px;
 }
 .navbar{
-  background-color: #09c7fb;
-  background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
+  background-color: #08AEEA;
+  background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+  
   
 }
 #ding {
@@ -80,10 +81,16 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
   background-color: #08AEEA;
   background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
   
+
+  
+  
+  
+
+  
 }
 h2 {
   font-size: 40px;
-  background: -webkit-linear-gradient(#00CCCC,  #1E2952 );
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -96,6 +103,69 @@ h2 {
 
 
 .background{
-  background-color: #96c8fb;
-background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
+
+
+h3  {
+  font-size: 20px;
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient2{
+  background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);
+}
+
+
+  
+
+ 
+ 
+
+  .btn-grad1 {background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%)}
+  .btn-grad1 {
+     margin: 10px;
+     padding: 5px 25px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad1:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+ 
+ .btn-grad {background-image: linear-gradient(to right, #00C9FF 0%, #92FE9D  51%, #00C9FF  100%)}
+ .btn-grad {
+    margin: 10px;
+    padding:5px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+
+
