@@ -2,13 +2,17 @@
   margin: 0 25px;
   padding: 10px 20px;
 }
-
+.navbar{
+  background-color: #09c7fb;
+  background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
+  
+}
 #ding {
   padding: 1rem 2rem 0 1rem;
   margin-bottom: 0px;
 }
 .page-footer.page-footer a:hover {
-  color: blue;
+  color:  #FC00FF;
 }
 .brand-area {
   padding: 2rem 20rem;
@@ -84,10 +88,14 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
-.background{
-  background-color: #85FFBD;
-  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-  background-size: cover;
- height: 100%;
 
+.portfolio-block.cv{
+  background-color: #d5fefd;
+  background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+}
+
+
+.background{
+  background-color: #96c8fb;
+background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
 }
