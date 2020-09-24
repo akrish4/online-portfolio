@@ -18,6 +18,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
     />
     <link rel="stylesheet" href="assets/css/untitled.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  
   </head>
 
   <body>
@@ -105,7 +110,7 @@
         <div class="container">
     <div class="container">
         <div class="project-title pb-5">
-            <h1 class="text-uppercase title-h1">Recently Done Projects</h1>
+            <h2 class="text-uppercase title-h1">Recently Done Projects</h2>
           <h5 class="text-lowercase"> want  detailed  idea on my work? 
                  <a href="project1.html" target="_blank"> <button  class="btn btn-outline-warning primary-button"   type="button">click here</button></a>
         </h5>
@@ -246,8 +251,25 @@
         </div>
       </div>
     </section>
-    <footer class="page-footer">
-        <div class="container">
+  <footer class="page-footer footer footer-area ">
+    <div class="container col-md-4">
+       
+             <form action="" method="post">
+             <h4>CONTACT ME</h4>
+               <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+               </div>
+               <div class="form-group">
+                  <label for="exampleFormControlTextarea1"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4">Any issues?</textarea>
+               </div>
+                <a> <button  class="btn btn-outline-dark "   type="button">submit</button></a>
+           </form>
+
+      
+      <br>
+      <br><br><br>
             <div class="links"><a href="#">About me</a><a href="certifications.html">Certifications</a><a
                     href="projects.html">Projects</a></div>
             <div class="social-icons"><a href="https://www.facebook.com/ananthakrishnannair.rs/" target="_blank"><i
@@ -255,13 +277,18 @@
                     target="_blank"><i class="icon ion-social-instagram-outline"></i></a><a href="https://twitter.com/"
                     target="_blank"><i class="icon ion-social-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/ananthakrishnan-nair-rs-742a05151/" target="_blank"><i
-                        class="icon ion-social-linkedin"></i></a></div>
-    
-        </div>
-    </footer>
+                        class="icon ion-social-linkedin"></i></a>
+            </div>
+
+        
+    </div>
+</footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
